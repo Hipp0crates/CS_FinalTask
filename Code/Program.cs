@@ -48,3 +48,7 @@ void GetNewArray(string[] array)
     Console.WriteLine($"Сформирован массив из строк, длинна которых меньше или равна 3 символам. Количество элементов: {newArraySize}");
     Console.WriteLine("[" + string.Join(", ", newArray) + "]");
 }
+
+string[] arrayOfStrings = GetArray();
+FillArray(arrayOfStrings);
+GetNewArray(arrayOfStrings);
